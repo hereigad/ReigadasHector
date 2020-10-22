@@ -1,10 +1,10 @@
 ﻿using System;
-using InterfazConsola;
+using InterfazGrafica;
 
 namespace Principal {
     class Program {
-        static void Main(string[] args) {
-            Consola.menu();
+        public static void Main(string[] args) {
+            InterfazGrafica.InterfazGrafica.Main();
         }
     }
 }

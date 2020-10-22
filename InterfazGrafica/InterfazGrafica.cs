@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace InterfazGrafica {
-    static class Program {
+    public static class InterfazGrafica {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
         [STAThread]
-        static void Main() {
+        public static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
